@@ -1,9 +1,8 @@
 # rime-flypy-tiger
-基于小鹤双拼、虎码辅助码的 rime 的方案
+基于小鹤双拼、虎码辅助码的 RIME 方案
 
-参考：
+参考配置：
 雾凇拼音：https://github.com/iDvel/rime-ice
-
 https://github.com/gaboolic/rime-shuangpin-fuzhuma
 
 ————
