@@ -1,0 +1,339 @@
+# Rime dictionary
+# encoding: utf-8
+#
+#
+# https://github.com/iDvel/rime-ice
+# ------- 一些杂项，按需选择 -------
+#
+#
+---
+name: others
+version: "2024-04-19"
+sort: by_weight
+...
+##### 容错词
+# 一些口语读音
+空落落	ks[eu lo[ls lo[ls	
+空落落	ks[eu lc[ls lc[ls	
+空落落的	ks[eu lo[ls lo[ls de[ui	
+空落落的	ks[eu lc[ls lc[ls de[ui	
+# 「阿房宫」的注音争议比较大
+阿房宫	ee[tz ph[ml gs[wd	
+阿房宫	aa[tz ph[ml gs[wd	
+阿房宫	ee[tz fh[ml gs[wd	
+阿房宫	aa[tz fh[ml gs[wd	
+阿房宫赋	ee[tz ph[ml gs[wd fu[os	
+阿房宫赋	aa[tz ph[ml gs[wd fu[os	
+阿房宫赋	ee[tz fh[ml gs[wd fu[os	
+阿房宫赋	aa[tz fh[ml gs[wd fu[os	
+# 「伯伯」方言
+伯伯	bo[ju bo[ju	
+伯伯	bd[ju bd[ju	
+# 「斜」的古音
+远上寒山石径斜	yr[mu uh[yf hj[ww uj[vs ui[ms jk[wu xp[jj	
+远上寒山石径斜	yr[mu uh[yf hj[ww uj[vs ui[ms jk[wu xx[jj	
+# 「骑」目前统读 qi
+坐骑	zo[jg qi[[	
+坐骑	zo[jg ji[[	
+铁骑	tp[zh qi[[	
+铁骑	tp[zh ji[[	
+一骑绝尘	yi[fi qi[[ jt[im if[yg	
+一骑绝尘	yi[fi ji[[ jt[im if[yg	
+一骑当千	yi[fi qi[[ dh[yb qm[lq	
+一骑当千	yi[fi ji[[ dh[yb qm[lq	
+一骑红尘妃子笑	yi[fi qi[[ hs[iu if[yg fw[bv zi[hi xn[rm	
+一骑红尘妃子笑	yi[fi ji[[ hs[iu if[yg fw[bv zi[hi xn[rm	
+走单骑	zz[pz dj[hn qi[[	
+走单骑	zz[pz dj[hn ji[[	
+千里走单骑	qm[lq li[dl zz[pz dj[hn qi[[	
+千里走单骑	qm[lq li[dl zz[pz dj[hn ji[[	
+# 「街」的粤语和东北话读音及常见的两种写法
+仆街	pu[jy jp[pg	
+仆街	pu[jy gd[pg	
+扑街	pu[uy jp[pg	
+扑街	pu[uy gd[pg	
+扑街仔	pu[uy jp[pg zd[jh	
+扑街仔	pu[uy gd[pg zd[jh	
+仆街仔	pu[jy jp[pg zd[jh	
+仆街仔	pu[jy gd[pg zd[jh	
+街溜子	jp[pg lq[kq zi[hi	
+街溜子	gd[pg lq[kq zi[hi	
+# 「錤」这个字念 ji，但是台湾媒体都会念成 qi，他的英文名 Ming-Chi Kuo 也是接近 qi
+郭明錤	go[gt mk[ov ji[zh	
+郭明錤	go[gt mk[ov qi[zh	
+# 「镐 gao hao」的发音，多为韩国人名，不知道 🤷‍♂️，词库里为 gao，这里额外加上 hao 音
+李昌镐	li[eh ih[oo hc[zg	
+曹世镐	cc[fo ui[la hc[zg	
+张镐哲	vh[bp gc[zg ve[ud	
+姜成镐	jl[gb ig[na hc[zg	
+姜镐童	jl[gb hc[zg ts[id	
+张镐濂	vh[bp hc[zg lm[kc	
+李敏镐	li[eh mb[eh hc[zg	
+李陈镐	li[eh if[ty hc[zg	
+赵亮镐	vc[pb ll[go hc[zg	
+郑俊镐	vg[ht jy[jh hc[zg	
+##### 错音错字提示。与 corrector.lua 配合，上面的是正确的，下面是错误的
+### 错音
+馄饨	hy[qv ty[qs	
+馄饨	hy[qv dy[qs	
+主角	vu[in jt[xt	
+主角	vu[in jn[xt	
+角色	jt[xt se[xm	
+角色	jn[xt se[xm	
+比萨	bi[vv sa[lx	
+比萨	pi[vv sa[lx	
+比萨饼	bi[vv sa[lx bk[ql	
+比萨饼	pi[vv sa[lx bk[ql	
+吃比萨	ii[da bi[vv sa[lx	
+吃比萨	ii[da pi[vv sa[lx	
+说服	uo[sp fu[vr	
+说服	uv[sp fu[vr	
+道行	dc[hu hg[px	
+道行	dc[hu hh[px	
+模样	mu[em yh[eg	
+模样	mo[em yh[eg	
+有模有样	yz[nv mu[em yz[nv yh[eg	
+有模有样	yz[nv mo[em yz[nv yh[eg	
+一模一样	yi[fi mu[em yi[fi yh[eg	
+一模一样	yi[fi mo[em yi[fi yh[eg	
+装模作样	vl[at mu[em zo[jw yh[eg	
+装模作样	vl[at mo[em zo[jw yh[eg	
+人模狗样	rf[jr mu[em gz[mg yh[eg	
+人模狗样	rf[jr mo[em gz[mg yh[eg	
+模板	mu[em bj[er	
+模板	mo[em bj[er	
+阿弥陀佛	ee[tz mi[by to[tv fo[jt	
+阿弥陀佛	aa[tz mi[by to[tv fo[jt	
+南无阿弥陀佛	na[ng mo[du ee[tz mi[by to[tv fo[jt	
+南无阿弥陀佛	na[ng mo[du aa[tz mi[by to[tv fo[jt	
+南无阿弥陀佛	nj[ng wu[du ee[tz mi[by to[tv fo[jt	
+南无阿弥陀佛	nj[ng wu[du aa[tz mi[by to[tv fo[jt	
+给予	ji[id yu[iv	
+给予	gw[id yu[iv	
+槟榔	bk[eh lh[et	
+槟榔	bb[eh lh[et	
+张柏芝	vh[bp bo[eu vi[lr	
+张柏芝	vh[bp bd[eu vi[lr	
+藤蔓	tg[lk wj[lr	
+藤蔓	tg[lk mj[lr	
+弄堂	ls[nl th[sg	
+弄堂	ns[nl th[sg	
+心宽体胖	xb[hx kr[we ti[jf pj[vu	
+心宽体胖	xb[hx kr[we ti[jf ph[vu	
+埋怨	mj[gd yr[lh	
+埋怨	md[gd yr[lh	
+虚与委蛇	xu[zc yu[ff ww[xb yi[cv	
+虚与委蛇	xu[zc yu[ff ww[xb ue[cv	
+木讷	mu[em ne[sj	
+木讷	mu[em na[sj	
+独乐乐	du[mc yt[by le[by	
+独乐乐	du[mc le[by le[by	
+众乐乐	vs[jj yt[by le[by	
+众乐乐	vs[jj le[by le[by	
+荨麻	qm[lk ma[zm	
+荨麻	xy[lk ma[zm	
+荨麻疹	xy[lk ma[zm vf[ae	
+荨麻疹	qm[lk ma[zm vf[ae	
+模具	mu[em ju[qh	
+模具	mo[em ju[qh	
+草薙	cc[ln ti[lu	
+草薙	cc[ln vi[lu	
+草薙京	cc[ln ti[lu jk[gy	
+草薙京	cc[ln vi[lu jk[gy	
+草薙剑	cc[ln ti[lu jm[jp	
+草薙剑	cc[ln vi[lu jm[jp	
+贾平凹	jx[vo pk[eh wa[mf	
+贾平凹	jx[vo pk[eh ao[mf	
+雪佛兰	xt[tb fu[jt lj[ht	
+雪佛兰	xt[tb fo[jt lj[ht	
+强劲	ql[bc jk[rs	
+强劲	ql[bc jb[rs	
+胴体	ds[vd ti[jf	
+胴体	ts[vd ti[jf	
+力能扛鼎	li[sl ng[kv gh[uu dk[qa	
+力能扛鼎	li[sl ng[kv kh[uu dk[qa	
+鸭绿江	ya[sx lu[ik jl[ku	
+鸭绿江	ya[sx lv[ik jl[ku	
+大腹便便	da[md fu[vh pm[jb pm[jb	
+大腹便便	da[md fu[vh bm[jb bm[jb	
+卡脖子	qx[yy bo[vh zi[hi	
+卡脖子	ka[yy bo[vh zi[hi	
+吱声	zi[dc ug[gc	
+吱声	vi[dc ug[gc	
+掺和	ij[ue ho[xd	
+掺和	ij[ue he[xd	
+掺和	cj[ue ho[xd	
+掺和	cj[ue he[xd	
+称职	if[xy vi[qh	
+称职	ig[xy vi[qh	
+螺蛳粉	lo[ci si[cr ff[pp	
+螺蛳粉	lo[ci ui[cr ff[pp	
+调换	dn[sd hr[um	
+调换	tn[sd hr[um	
+太行山	td[mi hh[px uj[vs	
+太行山	td[mi xk[px uj[vs	
+歇斯底里	xp[oe si[zt di[xi li[dl	
+歇斯底里	jp[oe si[zt di[xi li[dl	
+暖和	nr[or ho[xd	
+暖和	nr[or he[xd	
+模棱两可	mo[em lg[eh ll[ml ke[zk	
+模棱两可	mo[em lk[eh ll[ml ke[zk	
+鄱阳湖	po[tt yh[to hu[kv	
+鄱阳湖	pj[tt yh[to hu[kv	
+脖颈	bo[vh gg[rw	
+脖颈	bo[vh jk[rw	
+脖颈儿	bo[vh gg[rw er[pe	
+脖颈儿	bo[vh jk[rw er[pe	
+结扎	jp[id za[ua	
+结扎	jp[id va[ua	
+海参崴	hd[kk uf[ke wd[vb	
+海参崴	hd[kk uf[ke ww[vb	
+厚朴	hz[xh po[ey	
+厚朴	hz[xh pu[ey	
+大宛马	da[md yr[wz ma[nm	
+大宛马	da[md wj[wz ma[nm	
+龇牙	zi[lv ya[ly	
+龇牙	ci[lv ya[ly	
+龇着牙	zi[lv ve[gq ya[ly	
+龇着牙	ci[lv ve[gq ya[ly	
+龇牙咧嘴	zi[lv ya[ly lp[dp zv[dt	
+龇牙咧嘴	ci[lv ya[ly lp[dp zv[dt	
+头皮屑	tz[wm pi[rp xp[cv	
+头皮屑	tz[wm pi[rp xt[cv	
+六安	lu[al an[wb	
+六安	lq[al an[wb	
+六安县	lu[al an[wb xm[fk	
+六安县	lq[al an[wb xm[fk	
+六安市	lu[al an[wb ui[zr	
+六安市	lq[al an[wb ui[zr	
+六合区	lu[al he[jd qu[nb	
+六合区	lq[al he[jd qu[nb	
+安徽六安	an[wb hv[wh lu[al an[wb	
+安徽六安	an[wb hv[wh lq[al an[wb	
+安徽六安市	an[wb hv[wh lu[al an[wb ui[zr	
+安徽六安市	an[wb hv[wh lq[al an[wb ui[zr	
+安徽省六安市	an[wb hv[wh ug[yq lu[al an[wb ui[zr	
+安徽省六安市	an[wb hv[wh ug[yq lq[al an[wb ui[zr	
+南京六合	nj[ng jk[gy lu[al he[jd	
+南京六合	nj[ng jk[gy lq[al he[jd	
+南京六合区	nj[ng jk[gy lu[al he[jd qu[nb	
+南京六合区	nj[ng jk[gy lq[al he[jd qu[nb	
+南京市六合区	nj[ng jk[gy ui[zr lu[al he[jd qu[nb	
+南京市六合区	nj[ng jk[gy ui[zr lq[al he[jd qu[nb	
+### 错字
+曾经	cg[ho jk[iu	
+曾今	cg[ho jb[ja	
+按捺	an[ub na[uf	
+按耐	an[ub nd[lk	
+按捺不住	an[ub na[uf bu[cb vu[jn	
+按耐不住	an[ub nd[lk bu[cb vu[jn	
+别价	bp[dp jp[jp	
+别介	bp[dp jp[jp	
+甭价	bg[ct jp[jp	
+甭介	bg[ct jp[jp	
+血脉贲张	xt[ta md[vk bf[no vh[bp	
+血脉偾张	xt[ta md[vk ff[jo vh[bp	
+血脉喷张	xt[ta md[vk pf[do vh[bp	
+契诃夫	qi[am he[sz fu[hf	
+契科夫	qi[am ke[xj fu[hf	
+凑合	cz[wm he[jd	
+凑活	cz[wm ho[ka	
+巨惠	ju[nn hv[nh	
+钜惠	ju[zn hv[nh	
+摩羯座	mo[zu jp[gf zo[xg	
+魔蝎座	mo[za xp[cf zo[xg	
+偌大	ro[jd da[md	
+诺大	no[sd da[md	
+##### 叠字
+# 数据来源： https://zh.wikipedia.org/zh-cn/%E4%BA%8C%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E4%B8%89%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%8F%A0%E5%AD%97
+# 二叠字
+两个厶	ll[ml ge[jg si[ks	
+两个厶	ll[ml ge[jg mz[ks	
+两个𡥦	ll[ml ge[jg ni[hh	
+两个彐	ll[ml ge[jg ji[bj	
+两个𢎘	ll[ml ge[jg hj[[	
+两个魚	ll[ml ge[jg yu[wv	
+两个朿	ll[ml ge[jg ci[em	
+两个巛	ll[ml ge[jg ir[oc	
+两个罒	ll[ml ge[jg mu[ys	
+两个㐅	ll[ml ge[jg wu[bi	
+两个風	ll[ml ge[jg fg[oc	
+两个屮	ll[ml ge[jg ie[sc	
+两个屮	ll[ml ge[jg cc[sc	
+两个卄	ll[ml ge[jg nm[lc	
+两个龍	ll[ml ge[jg ls[tl	
+两个馬	ll[ml ge[jg ma[nm	
+两个卪	ll[ml ge[jg jp[zj	
+两个㔾	ll[ml ge[jg jp[zj	
+两个隻	ll[ml ge[jg vi[ur	
+两个來	ll[ml ge[jg ld[ej	
+两个桼	ll[ml ge[jg qi[ek	
+两个旡	ll[ml ge[jg ji[du	
+两个見	ll[ml ge[jg jm[ej	
+两个貝	ll[ml ge[jg bw[ob	
+两个禺	ll[ml ge[jg yu[qv	
+两个巿	ll[ml ge[jg fu[fr	
+两个車	ll[ml ge[jg ie[yc	
+两个車	ll[ml ge[jg ju[yc	
+两个區	ll[ml ge[jg qu[nd	
+两个隹	ll[ml ge[jg vv[ui	
+两个𠂢	ll[ml ge[jg pd[[	
+两个畐	ll[ml ge[jg fu[fq	
+两个㣇	ll[ml ge[jg yi[br	
+两个堯	ll[ml ge[jg yc[gp	
+两个倉	ll[ml ge[jg ch[jd	
+两个東	ll[ml ge[jg ds[eo	
+两个僉	ll[ml ge[jg qm[jj	
+两个齒	ll[ml ge[jg ii[lc	
+两个夋	ll[ml ge[jg qy[kh	
+# 三叠字
+三个雲	sj[ts ge[jg yy[tb	
+三个厶	sj[ts ge[jg si[ks	
+三个厶	sj[ts ge[jg mz[ks	
+三个屮	sj[ts ge[jg ie[sc	
+三个屮	sj[ts ge[jg cc[sc	
+三个車	sj[ts ge[jg ie[yc	
+三个隹	sj[ts ge[jg vv[ui	
+三个風	sj[ts ge[jg fg[oc	
+三个飛	sj[ts ge[jg fw[cf	
+三个魚	sj[ts ge[jg yu[wv	
+三个龍	sj[ts ge[jg ls[tl	
+三个丶	sj[ts ge[jg vu[id	
+三个丶	sj[ts ge[jg dm[id	
+三个圥	sj[ts ge[jg lu[gp	
+三个𠙽	sj[ts ge[jg kk[[	
+三个𠧪	sj[ts ge[jg tn[[	
+三个𠧪	sj[ts ge[jg yz[[	
+三个㔾	sj[ts ge[jg jp[zj	
+三个厡	sj[ts ge[jg yr[xk	
+三个𦉼	sj[ts ge[jg ku[[	
+三个朿	sj[ts ge[jg ci[em	
+三个𣥚	sj[ts ge[jg zz[[	
+三个県	sj[ts ge[jg xm[qy	
+三个亇	sj[ts ge[jg ge[xg	
+三个罒	sj[ts ge[jg mu[ys	
+三个羗	sj[ts ge[jg ql[gk	
+三个興	sj[ts ge[jg xk[ph	
+三个㖖	sj[ts ge[jg np[nd	
+三个門	sj[ts ge[jg mf[am	
+三个頁	sj[ts ge[jg ye[wy	
+三个鳥	sj[ts ge[jg nn[xn	
+三个動	sj[ts ge[jg ds[ls	
+三个𡿨	sj[ts ge[jg qr[[	
+三个䖝	sj[ts ge[jg is[[	
+三个丿	sj[ts ge[jg pp[tp	
+# 四叠字
+四个乂	si[ys ge[jg yi[bi	
+四个厶	si[ys ge[jg si[ks	
+四个厶	si[ys ge[jg mz[ks	
+四个屮	si[ys ge[jg ie[sc	
+四个屮	si[ys ge[jg cc[sc	
+四个魚	si[ys ge[jg yu[wv	
+四个朿	si[ys ge[jg ci[em	
+四个門	si[ys ge[jg mf[am	
+四个車	si[ys ge[jg ie[yc	
+四个風	si[ys ge[jg fg[oc	
+四个雲	si[ys ge[jg yy[tb	
+四个興	si[ys ge[jg xk[ph	
+四个龍	si[ys ge[jg ls[tl	
+

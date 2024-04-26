@@ -1,0 +1,24 @@
+# Rime dictionary
+# encoding: utf-8
+#
+#
+# 错误词频修复
+#
+#
+---
+name: fix
+version: "2024-02-25"
+sort: by_weight
+...
+
+时候	ui[ok hz[jo 5000
+含义	hj[jd yi[ib	341400
+涵义	hj[km yi[ib	2934
+含意	hj[jd yi[xh	1111
+
+# 地名词 放2候选
+伤害	uh[js hd[wd	502185
+上海	uh[yf hd[kk	500317
+
+背景	bw[av jk[oy	1119506
+北京	bw[av jk[gy	500302
